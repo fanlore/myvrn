@@ -1012,3 +1012,6 @@ img {
         display: block;
     }
 }
+input.input__text {
+    width: 100%;
+}
