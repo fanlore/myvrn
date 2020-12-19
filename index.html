@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Мой воронеж</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Montserrat:wght@100;400;800&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/swiper-bundle.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header">
+                <nav class="navigation">
+                    <ul class="logo">
+                        <li class="logo__item">
+                            <a href="#" class="logo__link"><img src="images/logo.png" alt="Логотип"></a>
+                        </li>
+                        <li class="logo__item">
+                            <a href="#" class="logo__link">
+                                <h1>Мой Воронеж</h1>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navigation-list">
+                        <li class="navigation__item">
+                            <a href="#dost" class="navigation__link">Достопримечательности</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#articles" class="navigation__link">Статьи</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#video" class="navigation__link">Видео</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#gallery" class="navigation__link">Галерея</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#contacts" class="navigation__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-container">
+                    <input id="toggle" type="checkbox">
+                    <label class="toggle-container" for="toggle">
+                        <span class="button button-toggle"></span>
+                    </label>
+                    <!-- Навигация мобайл-->
+                    <nav class="nav">
+                        <a href="#dost" class="navigation__link nav-item">Достопримечательности</a>
+                        <a href="#articles" class="navigation__link nav-item">Статьи</a>
+                        <a href="#video" class="navigation__link nav-item">Видео</a>
+                        <a href="#gallery" class="navigation__link nav-item">Галерея</a>
+                        <a href="#contacts" class="navigation__link nav-item">Контакты</a>
+                    </nav>
+                </div>
+                <section class="header-start">
+                    <h2 class="header__title"></h2>
+                    <a href="#" class="header__button">Начать</a>
+                </section>
+            </header>
+            
+            <main class="main">
+                
+                <section class="sights container">
+                    <ul class="sights-navigation">
+                        <li class="sights__item active">
+                            <a href="" class="sights__link">Все развлечения</a>
+                        </li>
+                        <li class="sights__item">
+                            <a href="" class="sights__link">Достопримечательности</a>
+                        </li>
+                        <li class="sights__item">
+                            <a href="" class="sights__link">Отдых</a>
+                        </li>
+                    </ul>
+                    <div class="sights-body" id="dost">
+                        <div class="cards">
+                            <div class="card">
+                                <div class="card__image">
+                                    <span class="like"></span><img src="images/idk.jpg" alt="Достопримечательность"></div>
+                                <div class="card-body">
+                                    <p class="card__content">Далеко-далеко за словесными, горами в стране гласных и
+                                        согласных живут рыбные тексты. Встретил буквоград проектах сих. Он ведущими
+                                        выйти, несколько рыбными использовало строчка безопасную алфавит, текстов там
+                                        мир страну предупредила, пустился свою. Снова, живет океана алфавит эта вскоре
+                                        обеспечивает деревни предупредила своих злых рукопись мир семантика составитель
+                                        языком текста, вдали решила переписали.</p>
+                                    <a href="#" class="card__button">Читать далее</a>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="first"
+                                                value="1"
+                                                aria-label="Всё тлен">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="first"
+                                                value="2"
+                                                aria-label="Плохо">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="first"
+                                                value="3"
+                                                aria-label="Нормально">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="first"
+                                                value="4"
+                                                aria-label="Хорошо">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="first"
+                                                value="5"
+                                                aria-label="Восхитительно"
+                                                checked="">
+                                        </div>
+                                        <p class="rating__fb">
+                                            <a href="#">2 отзыва</a>
+                                        </p>
+                                    </fieldset>
+                                    <ul class="category-list">
+                                        <li class="category__item">
+                                            <a href="#" class="category__link">Достопримечательность,
+                                            </a>
+                                        </li>
+                                        <li class="category__item">
+                                            <a href="#" class="category__link">
+                                                Развлечения</a>
+                                        </li>
+                                    </ul>
+                                    <h3 class="card__title">
+                                        <a href="#" class="card__title-link">Памятник славы</a>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image">
+                                    <span class="like"></span><img src="images/idk.jpg" alt="Достопримечательность"></div>
+                                <div class="card-body">
+                                    <p class="card__content">Далеко-далеко за словесными, горами в стране гласных и
+                                        согласных живут рыбные тексты. Встретил буквоград проектах сих. Он ведущими
+                                        выйти, несколько рыбными использовало строчка безопасную алфавит, текстов там
+                                        мир страну предупредила, пустился свою. Снова, живет океана алфавит эта вскоре
+                                        обеспечивает деревни предупредила своих злых рукопись мир семантика составитель
+                                        языком текста, вдали решила переписали.</p>
+                                    <a href="#" class="card__button">Читать далее</a>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="second"
+                                                value="1"
+                                                aria-label="Всё тлен">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="second"
+                                                value="2"
+                                                aria-label="Плохо">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="second"
+                                                value="3"
+                                                aria-label="Нормально">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="second"
+                                                value="4"
+                                                aria-label="Хорошо">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="second"
+                                                value="5"
+                                                aria-label="Восхитительно"
+                                                checked="">
+                                        </div>
+                                        <p class="rating__fb">
+                                            <a href="#">2 отзыва</a>
+                                        </p>
+                                    </fieldset>
+                                    <div class="feedback"></div>
+                                    <ul class="category-list">
+                                        <li class="category__item">
+                                            <a href="#" class="category__link">Достопримечательность,
+                                            </a>
+                                        </li>
+                                        <li class="category__item">
+                                            <a href="#" class="category__link">
+                                                Развлечения</a>
+                                        </li>
+                                    </ul>
+                                    <h3 class="card__title">Памятник славы</h3>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image">
+                                    <span class="like"></span><img src="images/idk.jpg" alt="Достопримечательность"></div>
+                                <div class="card-body">
+                                    <p class="card__content">Далеко-далеко за словесными, горами в стране гласных и
+                                        согласных живут рыбные тексты. Встретил буквоград проектах сих. Он ведущими
+                                        выйти, несколько рыбными использовало строчка безопасную алфавит, текстов там
+                                        мир страну предупредила, пустился свою. Снова, живет океана алфавит эта вскоре
+                                        обеспечивает деревни предупредила своих злых рукопись мир семантика составитель
+                                        языком текста, вдали решила переписали.</p>
+                                    <a href="#" class="card__button">Читать далее</a>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="third"
+                                                value="1"
+                                                aria-label="Всё тлен">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="third"
+                                                value="2"
+                                                aria-label="Плохо">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="third"
+                                                value="3"
+                                                aria-label="Нормально">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="third"
+                                                value="4"
+                                                aria-label="Хорошо">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="third"
+                                                value="5"
+                                                aria-label="Восхитительно"
+                                                checked="">
+                                        </div>
+                                        <p class="rating__fb">
+                                            <a href="#">2 отзыва</a>
+                                        </p>
+                                    </fieldset>
+                                    <div class="feedback"></div>
+                                    <ul class="category-list">
+                                        <li class="category__item">
+                                            <a href="#" class="category__link">Достопримечательность,
+                                            </a>
+                                        </li>
+                                        <li class="category__item">
+                                            <a href="#" class="category__link">
+                                                Развлечения</a>
+                                        </li>
+                                    </ul>
+                                    <h3 class="card__title">Памятник славы</h3>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__image">
+                                    <span class="like active"></span><img src="images/idk.jpg" alt="Достопримечательность"></div>
+                                <div class="card-body">
+                                    <p class="card__content">Далеко-далеко за словесными, горами в стране гласных и
+                                        согласных живут рыбные тексты. Встретил буквоград проектах сих. Он ведущими
+                                        выйти, несколько рыбными использовало строчка безопасную алфавит, текстов там
+                                        мир страну предупредила, пустился свою. Снова, живет океана алфавит эта вскоре
+                                        обеспечивает деревни предупредила своих злых рукопись мир семантика составитель
+                                        языком текста, вдали решила переписали.</p>
+                                    <a href="#" class="card__button">Читать далее</a>
+                                    <fieldset class="rating">
+                                        <div class="rating__group">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="fourth"
+                                                value="1"
+                                                aria-label="Всё тлен">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="fourth"
+                                                value="2"
+                                                aria-label="Плохо">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="fourth"
+                                                value="3"
+                                                aria-label="Нормально">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="fourth"
+                                                value="4"
+                                                aria-label="Хорошо">
+                                            <input
+                                                class="rating__star"
+                                                type="radio"
+                                                name="fourth"
+                                                value="5"
+                                                aria-label="Восхитительно"
+                                                checked="">
+                                        </div>
+                                        <p class="rating__fb">
+                                            <a href="#">2 отзыва</a>
+                                        </p>
+                                    </fieldset>
+                                    <div class="feedback"></div>
+                                    <ul class="category-list">
+                                        <li class="category__item">
+                                            <a href="#" class="category__link">Достопримечательность,
+                                            </a>
+                                        </li>
+                                        <li class="category__item">
+                                            <a href="#" class="category__link">
+                                                Развлечения</a>
+                                        </li>
+                                    </ul>
+                                    <h3 class="card__title">Памятник славы</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <!---- <div class="filters"> <h3 class="filters__title">Фильтры</h3> </div> -->
+                    </div>
+                </section>
+                <section class="gallery container" id="gallery">
+                    <h2 class="gallery__title">подборка фотографий</h2>
+                    <div class="gallery-photos">
+                        <div class="gallery__photo">
+                            <a href="images/idk.jpg" data-fslightbox="gallery">
+                                <img src="images/idk.jpg" alt="фото в галлерее">
+                            </a>
+                        </div>
+                        <div class="gallery__photo">
+                            <a href="images/idk.jpg" data-fslightbox="gallery">
+                                <img src="images/idk.jpg" alt="фото в галлерее">
+                            </a>
+                        </div>
+                        <div class="gallery__photo">
+                            <a href="images/idk.jpg" data-fslightbox="gallery">
+                                <img src="images/idk.jpg" alt="фото в галлерее">
+                            </a>
+                        </div>
+                        <div class="gallery__photo">
+                            <a href="images/idk.jpg" data-fslightbox="gallery">
+                                <img src="images/idk.jpg" alt="фото в галлерее">
+                            </a>
+                        </div>
+                        <div class="gallery__photo">
+                            <a href="images/idk.jpg" data-fslightbox="gallery">
+                                <img src="images/idk.jpg" alt="фото в галлерее">
+                            </a>
+                        </div>
+                        <div class="gallery__photo">
+                            <a href="images/idk.jpg" data-fslightbox="gallery">
+                                <img src="images/idk.jpg" alt="фото в галлерее">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="articles container" id="articles">
+                    <h2 class="articles__title">Статьи</h2>
+                    <div class="article">
+                        <div class="article__image"><img src="images/idk.jpg" alt="Воронеж"></div>
+                        <div class="article__content">
+                            <p class="card__content">Далеко-далеко за словесными, горами в стране гласных и
+                                согласных живут рыбные тексты. Встретил буквоград проектах сих. Он ведущими
+                                выйти, несколько рыбными использовало строчка безопасную алфавит, текстов там
+                                мир страну предупредила, пустился свою. Снова, живет океана алфавит эта вскоре
+                                обеспечивает деревни предупредила своих злых рукопись мир семантика составитель
+                                языком текста, вдали решила переписали.
+                            </p>
+                            <a href="#" class="card__button">Подробнее</a>
+                            <span class="like active"></span>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="article__image"><img src="images/idk.jpg" alt="Воронеж"></div>
+                        <div class="article__content">
+                            <p class="card__content">Далеко-далеко за словесными, горами в стране гласных и
+                                согласных живут рыбные тексты. Встретил буквоград проектах сих. Он ведущими
+                                выйти, несколько рыбными использовало строчка безопасную алфавит, текстов там
+                                мир страну предупредила, пустился свою. Снова, живет океана алфавит эта вскоре
+                                обеспечивает деревни предупредила своих злых рукопись мир семантика составитель
+                                языком текста, вдали решила переписали.
+                            </p>
+                            <a href="#" class="card__button">Подробнее</a>
+                            <span class="like active"></span>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="article__image"><img src="images/idk.jpg" alt="Воронеж"></div>
+                        <div class="article__content">
+                            <p class="card__content">Далеко-далеко за словесными, горами в стране гласных и
+                                согласных живут рыбные тексты. Встретил буквоград проектах сих. Он ведущими
+                                выйти, несколько рыбными использовало строчка безопасную алфавит, текстов там
+                                мир страну предупредила, пустился свою. Снова, живет океана алфавит эта вскоре
+                                обеспечивает деревни предупредила своих злых рукопись мир семантика составитель
+                                языком текста, вдали решила переписали.
+                            </p>
+                            <a href="#" class="card__button">Подробнее</a>
+                            <span class="like active"></span>
+                        </div>
+                    </div>
+                    <div class="article">
+                        <div class="article__image"><img src="images/idk.jpg" alt="Воронеж"></div>
+                        <div class="article__content">
+                            <p class="card__content">Далеко-далеко за словесными, горами в стране гласных и
+                                согласных живут рыбные тексты. Встретил буквоград проектах сих. Он ведущими
+                                выйти, несколько рыбными использовало строчка безопасную алфавит, текстов там
+                                мир страну предупредила, пустился свою. Снова, живет океана алфавит эта вскоре
+                                обеспечивает деревни предупредила своих злых рукопись мир семантика составитель
+                                языком текста, вдали решила переписали.
+                            </p>
+                            <a href="#" class="card__button">Подробнее</a>
+                            <span class="like active"></span>
+                        </div>
+                    </div>
+                </section>
+                <section class="video container" id="video">
+                    <h2 class="video__title">Видео</h2>
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="video__img">
+                                    <a
+                                        data-fslightbox="data-fslightbox"
+                                        href="https://www.youtube.com/watch?v=MKcMkajO2qk"
+                                        class="video__link"><img src="images/idk.jpg" alt="">
+                                        <button class="video__play">
+                                            <svg
+                                                width="80"
+                                                height="80"
+                                                viewbox="0 0 80 80"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="40" cy="40" r="40" fill="#F78F1E"/>
+                                                <path
+                                                    d="M53.0757 37.0988C55.0757 38.2535 55.0757 41.1403 53.0757 42.295L35.2576 52.5823C33.2576 53.737 30.7576 52.2936 30.7576 49.9842V29.4096C30.7576 27.1002 33.2576 25.6568 35.2576 26.8115L53.0757 37.0988Z"
+                                                    fill="white"/>
+                                            </svg>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="video__img">
+                                    <a
+                                        data-fslightbox="data-fslightbox"
+                                        href="https://www.youtube.com/watch?v=MKcMkajO2qk"
+                                        class="video__link"><img src="images/idk.jpg" alt="">
+                                        <button class="video__play">
+                                            <svg
+                                                width="80"
+                                                height="80"
+                                                viewbox="0 0 80 80"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="40" cy="40" r="40" fill="#F78F1E"/>
+                                                <path
+                                                    d="M53.0757 37.0988C55.0757 38.2535 55.0757 41.1403 53.0757 42.295L35.2576 52.5823C33.2576 53.737 30.7576 52.2936 30.7576 49.9842V29.4096C30.7576 27.1002 33.2576 25.6568 35.2576 26.8115L53.0757 37.0988Z"
+                                                    fill="white"/>
+                                            </svg>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="video__img">
+                                    <a
+                                        data-fslightbox="data-fslightbox"
+                                        href="https://www.youtube.com/watch?v=MKcMkajO2qk"
+                                        class="video__link"><img src="images/idk.jpg" alt="">
+                                        <button class="video__play">
+                                            <svg
+                                                width="80"
+                                                height="80"
+                                                viewbox="0 0 80 80"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="40" cy="40" r="40" fill="#F78F1E"/>
+                                                <path
+                                                    d="M53.0757 37.0988C55.0757 38.2535 55.0757 41.1403 53.0757 42.295L35.2576 52.5823C33.2576 53.737 30.7576 52.2936 30.7576 49.9842V29.4096C30.7576 27.1002 33.2576 25.6568 35.2576 26.8115L53.0757 37.0988Z"
+                                                    fill="white"/>
+                                            </svg>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </section>
+                <section class="contacts container" id="contacts">
+                    <h2 class="contacts__title">Обратиться к нам</h2>
+                    <div class="contacts__card">
+                        <form class="form">
+                            <fieldset class="form__text">
+                                <input type="text" placeholder="Имя" class="input__text">
+                                <input type="text" placeholder="Фамилия" class="input__text">
+                            </fieldset>
+                            <input type="email" placeholder="Почта" class="input__email">
+                            <textarea name="" id="" placeholder="Обращение" class="input__textarea"></textarea>
+                            <button type="submit" class="contacts__submit">Отправить</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <a href="#" class="logo__link"><img src="images/logo.png" alt="Логотип"></a>
+            </footer>
+            <script src="js/typed.min.js"></script>
+            <script src="js/fslightbox.js"></script>
+            <script src="js/swiper-bundle.js"></script>
+            <script src="js/main.js"></script>
+        </body>
+    </html>
